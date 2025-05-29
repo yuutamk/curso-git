@@ -1,0 +1,185 @@
+¿Qué es Git Stash?
+
+Pregunta 1 Respuesta
+
+a.
+Es una forma de realizar un commit sin necesidad de escribir un mensaje.
+
+
+b.
+Es un área que permite almacenar temporalmente los cambios realizados en un proyecto sin enviarlos al repositorio mediante un commit.
+
+
+c.
+Es un comando que nos muestra el estatus de nuestro proyecto y nos indica si realizamos algún cambio de forma reciente.
+
+
+d.
+Es la área en donde se guardan temporalmente los cambios para luego ser llevados de forma definitiva al repositorio.
+
+
+¿Qué comando nos permite realizar un guardado rápido en nuestros archivos del proyecto?
+
+Pregunta 2 Respuesta
+
+a.
+git commit -a -m “Guardado rápido”
+
+
+b.
+git stash o git save
+
+
+c.
+git status
+
+
+d.
+git push
+
+
+
+
+¿Con qué comando podemos visualizar de forma numerada los guardados rápidos almacenados?
+
+Pregunta 3 Respuesta
+
+a.
+git stash show
+
+
+b.
+git stash apply --index
+
+
+c.
+git stash list
+
+
+d.
+git stash save --keep-index
+
+
+¿Qué acción realiza el comando git stash pop?
+
+Pregunta 4 Respuesta
+
+a.
+Muestra un listado de los guardados rápidos creados.
+
+
+b.
+Elimina el archivo del área stash indicando su nombre.
+
+
+c.
+Permite hacer entrada al guardado, aplicar los cambios y eliminar los archivos de dicha área
+
+
+d.
+Permite acceder a alguno de los guardados rápidos realizados anteriormente.
+
+
+
+¿De qué manera podemos limpiar todo en el área de stash?
+
+Pregunta 5 Respuesta
+
+a.
+git reset –soft [SHA1]
+
+
+b.
+git stash clear
+
+
+c.
+git stash drop
+
+
+d.
+git reset --hard [SHA1]
+
+
+¿Qué es git rebase?
+
+Pregunta 6 Respuesta
+
+a.
+Permite configurar las credenciales en un repositorio.
+
+
+b.
+Es un proceso de reorganización enfocado en integrar modificaciones de una rama a otra, organizando la base de una rama de un commit a otra, manteniendo un historial del proyecto lineal.
+
+
+c.
+Nos permite crear ramas con llaves de acceso distintas.
+
+
+d.
+Permite integrar cambios de una rama a otra conservando el historial de cambios y dejando las ramas intactas.
+
+
+¿Cuál es la diferencia entre git merge y git rebase?
+
+Pregunta 8 Respuesta
+
+a.
+Git merge deja intactas las ramas existentes conservando todo el historial, mientras que git rebase reorganiza nuestro proyecto consiguiendo un historial limpio y lineal sin bifurcaciones.
+
+
+b.
+Git rebase nos permite crear nuevas ramas de trabajo mientras que merge nos permite fusionar ramas.
+
+
+c.
+Git rebase nos permite configurar las credenciales de acceso local mientras que git merge configura credenciales públicas.
+
+
+d.
+Git merge nos permite crear un historial de trabajo lineal mientras que el rebase conserva el historial de confirmaciones.
+
+
+¿Qué hace el comando git rebase --i?
+
+Pregunta 9 Respuesta
+
+a.
+La opción --i permite incluir otros commits en otro.
+
+
+b.
+Toma las confirmaciones de una rama de trabajo y las aplica a la rama anterior.
+
+
+c.
+Ejecuta un script de shell para los commits seleccionados.
+
+
+d.
+Accede a la versión interactiva del comando, en la cual podemos seleccionar, modificar, mover o eliminar los commits según las propias necesidades.
+
+
+¿Qué diferencia hay entre realizar un rebase standard y un rebase interactivo?
+
+Pregunta 10 Respuesta
+
+a.
+¿Qué diferencia hay entre realizar un rebase standard y un rebase interactivo?
+
+
+b.
+El rebase interactivo ejecuta scripts de shell para los commits seleccionados mientras que el standard garantiza que el commit en la rama actual no se modifique.
+
+
+c.
+El rebase standard elimina el commit de bloque de confirmación final, mientras que el interactivo mantiene ese commit de bloque.
+
+
+d.
+No hay diferencia, ambos comandos realizan la misma acción.
+
+
+La respuesta correcta es:
+¿Qué diferencia hay entre realizar un rebase standard y un rebase interactivo?

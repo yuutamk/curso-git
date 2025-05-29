@@ -1,0 +1,317 @@
+¿Cuál es el comando para hacer merge de una rama en otra?
+
+Pregunta 1 Respuesta
+
+a.
+git branch merge branch_name
+
+
+b.
+git combine branch branch_name
+
+
+c.
+git merge branch_name
+
+
+d.
+git apply merge branch_name
+
+¿Cuál es el comando correcto para hacer un merge de la rama feature en la rama main?
+
+Pregunta 2 Respuesta
+
+a.
+git merge feature main
+
+
+b.
+git merge main feature
+
+
+c.
+git checkout main y luego git merge feature
+
+
+d.
+git merge feature y luego git checkout main
+
+¿Qué sucede al fusionar (merge) una rama en la rama principal?
+
+Pregunta 3 Respuesta
+
+a.
+Clona la rama a un nuevo repositorio
+
+
+b.
+Combina los cambios de la rama en la rama principal
+
+
+c.
+Elimina la rama fusionada
+
+
+d.
+Borra todos los commits de la rama principal
+
+¿Qué es un conflicto en un merge?
+
+Pregunta 4 Respuesta
+
+a.
+Cambios incompatibles entre ramas.
+
+
+b.
+Errores de compilación en el código.
+
+
+c.
+Modificaciones simultáneas en la misma parte del archivo desde diferentes ramas.
+
+
+d.
+Múltiples commits en la misma rama.
+
+¿Qué comando se utiliza para abortar un merge en caso de conflictos?
+
+Pregunta 5 Respuesta
+
+a.
+git merge --abort
+
+
+b.
+git abort merge
+
+
+c.
+git reset --merge
+
+
+d.
+git revert merge
+
+¿Qué significa la unión (merge) en Git?
+
+Pregunta 6 Respuesta
+
+a.
+Configurar las opciones de seguimiento de una rama
+
+
+b.
+Abandonar una rama de desarrollo
+
+
+c.
+Eliminar una rama antigua
+
+
+d.
+Combinar los cambios de dos ramas en una sola
+
+¿Qué representa un conflicto en Git?
+
+Pregunta 7 Respuesta
+
+a.
+Un cambio no registrado en el repositorio
+
+
+b.
+Un error en el comando de fusión
+
+
+c.
+La eliminación de un archivo importante
+
+
+d.
+Cuando dos ramas contienen cambios incompatibles en el mismo archivo
+
+Si hay conflictos durante el merge, ¿cuál es el paso inicial que debes seguir para resolverlos?
+
+Pregunta 8 Respuesta
+
+a.
+Crear una nueva rama
+
+
+b.
+Usar git rebase
+
+
+c.
+Editar manualmente los archivos conflictivos
+
+
+d.
+Usar git stash
+
+Después de resolver los conflictos y guardar los cambios, ¿qué comando es necesario para finalizar el merge?
+
+Pregunta 9 Respuesta
+
+a.
+git merge finalize
+
+
+b.
+git merge --end
+
+
+c.
+git commit
+
+
+d.
+git merge --continue
+
+¿Qué es un merge fast-forward en Git?
+
+
+
+Pregunta 10 Respuesta
+
+a.
+Un merge que crea un nuevo commit de merge
+
+
+b.
+Un merge que requiere resolución manual de conflictos
+
+
+c.
+Un merge que elimina commits anteriores
+
+
+d.
+Un merge que simplemente mueve el puntero de la rama a la punta de la rama fusionada
+
+¿Qué caracteriza a un merge fast-forward?
+
+
+
+Pregunta 11 Respuesta
+
+a.
+La rama simplemente avanza al último commit de la rama fusionada.
+
+
+b.
+Resolución automática de conflictos
+
+
+c.
+La creación de un nuevo commit de merge
+
+¿Cuál es la ventaja de usar un merge fast-forward?
+
+Pregunta 12 Respuesta
+
+a.
+Requiere más tiempo y esfuerzo para completarse
+
+
+b.
+Aumenta la posibilidad de conflictos
+
+
+c.
+Crea un historial de commits más complejo
+
+
+d.
+Mantiene un historial de commits lineal y limpio
+
+¿Qué es un merge de unión automática en Git?
+
+Pregunta 13 Respuesta
+
+a.
+ Un merge que siempre crea un commit de merge
+
+
+b.
+ Un merge que siempre requiere intervención manual
+
+
+c.
+ Un merge que Git puede realizar automáticamente sin conflictos
+
+
+d.
+ Un merge que elimina la rama de origen después de la unión
+
+ ¿Qué comando de Git se utiliza para realizar una unión automática de ramas?
+
+Pregunta 14 Respuesta
+
+a.
+  git merge
+
+
+b.
+ git commit
+
+
+c.
+ git rebase
+
+
+ ¿En qué situación se puede realizar un merge fast-forward en Git?
+
+Pregunta 15 Respuesta
+
+a.
+Cuando la rama de destino ha tenido nuevos commits después de crear la rama fuente.
+
+
+b.
+Cuando la rama de destino no ha tenido nuevos commits desde que se creó la rama fuente.
+
+
+c.
+Cuando la rama fuente está vacía.
+
+
+d.
+Cuando ambas ramas tienen el mismo número de commits.
+
+¿Qué sucede con el historial de commits cuando se realiza un merge fast-forward?
+
+
+
+Pregunta 16 Respuesta
+
+a.
+El historial de commits permanece lineal.
+
+
+b.
+Se crea un nuevo commit de fusión.
+
+
+c.
+Se crean ramas adicionales.
+
+
+d.
+Se borran los commits anteriores.
+
+¿Qué significa un conflicto de fusión en Git?
+
+Pregunta 17 Respuesta
+
+a.
+Que no se puede crear una nueva rama
+
+
+b.
+Que hay divergencias en los archivos que deben resolverse
+
+
+c.
+Que las ramas se han unido correctamente

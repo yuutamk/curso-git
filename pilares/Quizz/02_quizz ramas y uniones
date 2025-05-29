@@ -1,0 +1,282 @@
+¿Qué es una rama en Git?
+
+Pregunta 1 Respuesta
+
+a.
+Un repositorio principal
+
+
+b.
+Una copia de seguridad del proyecto
+
+
+c.
+Un comando que borra archivos
+
+
+d.
+Una línea de desarrollo independiente
+
+¿Cuál es la ventaja principal de utilizar ramas en Git?
+
+
+
+Pregunta 2 Respuesta
+
+a.
+evitar conflictos de cambios
+
+
+b.
+permitir trabajar en características nuevas sin afectar la rama principal
+
+
+c.
+mantener el historial de cambios limpio
+
+
+d.
+mejorar la colaboración en equipo
+
+¿Cuál es el comando para crear una nueva rama en Git?
+
+Pregunta 3 Respuesta
+
+a.
+git branch nombre_de_rama
+
+
+b.
+git new nombre_de_rama
+
+
+c.
+git create nombre_de_rama
+
+
+d.
+git add nombre_de_rama
+
+¿Qué comando se usa para listar todas las ramas disponibles?
+
+Pregunta 4 Respuesta
+
+a.
+git branch
+
+
+b.
+git list branches
+
+
+c.
+git show branches
+
+
+d.
+git branches
+
+Si deseas eliminar una rama llamada "bugfix-123", ¿cuál sería el comando correcto?
+
+Pregunta 5 Respuesta
+
+a.
+git delete bugfix-123
+
+
+b.
+git remove bugfix-123
+
+
+c.
+git cleanup bugfix-123
+
+
+d.
+git branch -d bugfix-123
+
+¿Cuál es la diferencia principal entre un commit y un git stash?
+
+Pregunta 6 Respuesta
+
+a.
+Ninguna de las anteriores.
+
+
+b.
+Ambos realizan la misma acción
+
+
+c.
+Un commit guarda cambios temporalmente, mientras que un git stash los guarda permanentemente.
+
+
+d.
+Un git stash guarda cambios temporalmente, mientras que un commit los guarda permanentemente.
+
+¿Qué comando se utiliza para aplicar los cambios guardados en el stash y eliminarlos de la lista de stash al mismo tiempo?
+
+Pregunta 7 Respuesta
+
+a.
+git stash apply
+
+
+b.
+git stash merge
+
+
+c.
+git stash clear
+
+
+d.
+git stash pop
+
+¿Cuál es el comando para hacer merge de una rama en otra?
+
+Pregunta 8 Respuesta
+
+a.
+git merge branch_name
+
+
+b.
+git combine branch branch_name
+
+
+c.
+git apply merge branch_name
+
+
+d.
+git branch merge branch_name
+
+¿Qué sucede al fusionar (merge) una rama en la rama principal?
+
+Pregunta 9 Respuesta
+
+a.
+Clona la rama a un nuevo repositorio
+
+
+b.
+Elimina la rama fusionada
+
+
+c.
+Combina los cambios de la rama en la rama principal
+
+
+d.
+Borra todos los commits de la rama principal
+
+¿Qué comando se utiliza para abortar un merge en caso de conflictos?
+
+Pregunta 10 Respuesta
+
+a.
+git revert merge
+
+
+b.
+git abort merge
+
+
+c.
+git merge --abort
+
+
+d.
+git reset --merge
+
+¿Qué representa un conflicto en Git?
+
+Pregunta 11 Respuesta
+
+a.
+Un error en el comando de fusión
+
+
+b.
+Un cambio no registrado en el repositorio
+
+
+c.
+La eliminación de un archivo importante
+
+
+d.
+Cuando dos ramas contienen cambios incompatibles en el mismo archivo
+
+Después de resolver los conflictos y guardar los cambios, ¿qué comando es necesario para finalizar el merge?
+
+Pregunta 12 Respuesta
+
+a.
+git merge --end
+
+
+b.
+git commit
+
+
+c.
+git merge finalize
+
+
+d.
+git merge --continue
+
+¿Cuál es la ventaja de usar un merge fast-forward?
+
+Pregunta 13 Respuesta
+
+a.
+Crea un historial de commits más complejo
+
+
+b.
+Mantiene un historial de commits lineal y limpio
+
+
+c.
+Requiere más tiempo y esfuerzo para completarse
+
+
+d.
+Aumenta la posibilidad de conflictos
+
+¿Qué es una etiqueta en Git?
+
+Pregunta 14 Respuesta
+
+a.
+Un marcador temporal específico en la historia del proyecto
+
+
+b.
+Un conflicto de fusión
+
+
+c.
+Una rama nueva
+
+¿Qué comando se usa para eliminar una etiqueta local llamada v1.0 en Git?
+
+Pregunta 15 Respuesta
+
+a.
+git remove tag v1.0
+
+
+b.
+git tag --delete v1.0
+
+
+c.
+git tag -d v1.0
+
+
+d.
+git delete tag v1.0
